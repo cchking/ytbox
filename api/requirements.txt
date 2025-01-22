@@ -1,0 +1,27 @@
+fastapi>=0.100.0
+uvicorn>=0.22.0
+sqlalchemy>=2.0.0
+databases>=0.7.0
+pydantic>=2.0.0
+email-validator  # for EmailStr support
+python-jose[cryptography]  # for JWT
+passlib[bcrypt]  # for password hashing
+python-multipart  # for Form and File upload
+httpx  # for async HTTP requests
+aiofiles  # for async file operations
+python-dateutil  # for datetime handling
+tzdata  # for timezone handling
+tiktoken  # OpenAI's tokenizer
+openai  # OpenAI API client
+zhipuai  # ZhipuAI API client
+starlette>=0.27.0
+python-json-logger  # for JSON logging
+typing-extensions  # for additional type hints
+asyncio  # for async operations
+aiosqlite  # if using SQLite as database
+pymysql  # if using MySQL as database
+psycopg2-binary  # if using PostgreSQL as database
+python-dotenv  # for environment variables
+cryptography  # for encryption/decryption
+secure  # for security headers
+bcrypt  # for password hashing

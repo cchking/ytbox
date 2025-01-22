@@ -1,0 +1,14 @@
+/* ... 其他样式 ... */
+.el-message__content {
+  background-color: white !important;
+  color: black !important;
+  border-radius: 5px;
+}
+
+.el-message--success .el-message__wrapper,
+.el-message--warning .el-message__wrapper,
+.el-message--info .el-message__wrapper,
+.el-message--error .el-message__wrapper {
+  background-color: white !important;
+  color: black !important;
+}

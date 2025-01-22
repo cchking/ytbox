@@ -1,0 +1,18 @@
+# src/views/admin/
+├── layout/
+│   ├── AdminLayout.vue         # 管理布局组件
+│   ├── Sidebar.vue            # 侧边导航
+│   └── Header.vue             # 顶部导航
+│
+├── users/
+│   ├── UserList.vue           # 用户列表
+│   ├── UserForm.vue           # 用户创建/编辑表单
+│   └── VipManagement.vue      # VIP管理组件
+│
+├── models/
+│   ├── ModelList.vue          # 模型列表
+│   └── ModelForm.vue          # 模型创建/编辑表单
+│
+├── channels/
+│   ├── ChannelList.vue        # 渠道列表
+│   └── ChannelForm.vue        # 渠道配置表单
