@@ -1,6 +1,5 @@
 <template>
   <div class="h-[10%] p-4">
-    <h2 class="text-xl font-bold mb-2">开源</h2>
     <div class="flex flex-col space-y-2">
       <a
         href="https://github.com/cchking/ytbox"
